@@ -266,3 +266,20 @@ padding:20px;
 
 @import "highlights";
 @import "svg-icons";
+.hero-avatar{
+width:140px;
+height:140px;
+border-radius:50%;
+border:4px solid #2563EB;
+margin-bottom:20px;
+object-fit:cover;
+}
+
+.posts{
+display:grid;
+gap:25px;
+}
+
+.read-more{
+font-weight:600;
+}
