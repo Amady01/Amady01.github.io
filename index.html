@@ -1,18 +1,169 @@
 ---
-layout: default
----
+
+## layout: default
+
+<!-- HERO -->
+
+<section class="hero">
+
+  <img src="{{ site.avatar }}" class="hero-avatar">
+
+  <h1>{{ site.name }}</h1>
+
+  <p class="subtitle">
+    Data & AI Specialist | Statistical Dissemination Expert
+  </p>
+
+  <p>
+    Transforming data into insights through statistics,
+    visualization and AI-driven solutions.
+  </p>
+
+  <div class="hero-buttons">
+
+```
+<a href="/cv.pdf" class="btn">
+  Télécharger CV
+</a>
+
+<a href="https://github.com/amady01" class="btn">
+  GitHub
+</a>
+
+<a href="https://linkedin.com/in/amadou-sall-29b5802aa" class="btn">
+  LinkedIn
+</a>
+```
+
+  </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section>
+
+  <h2>À propos</h2>
+
+  <div class="card">
+
+```
+<p>
+  Chargé de diffusion statistique avec expérience en
+  Open Data, diffusion statistique, visualisation,
+  métadonnées et intelligence artificielle.
+</p>
+
+<p>
+  Expérience sur RGPH5, ODP Sénégal,
+  diffusion statistique et gestion de données.
+</p>
+```
+
+  </div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section>
+
+<h2>Compétences</h2>
+
+<div class="card">
+
+* Python / R / SQL
+* Power BI / Data Visualization
+* Open Data Platforms
+* SDMX
+* PostgreSQL / MongoDB
+* Machine Learning
+* Data Management
+
+</div>
+
+</section>
+
+<!-- EXPERIENCE -->
+
+<section>
+
+<h2>Expériences</h2>
+
+<div class="card">
+
+<h3>ANSD — Chargé de diffusion</h3>
+
+<p>2023–2025</p>
+
+<ul>
+<li>RGPH5</li>
+<li>ODP Sénégal</li>
+<li>Métadonnées statistiques</li>
+<li>Visualisation et reporting</li>
+</ul>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section>
+
+<h2>Projets & Articles</h2>
 
 <div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+{% for post in site.posts %}
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+<article class="post">
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+<h3>
+<a href="{{ site.baseurl }}{{ post.url }}">
+{{ post.title }}
+</a>
+</h3>
+
+<div class="entry">
+{{ post.excerpt }}
 </div>
+
+<a
+href="{{ site.baseurl }}{{ post.url }}"
+class="read-more"
+
+>
+
+Lire plus →
+
+</a>
+
+</article>
+
+{% endfor %}
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section>
+
+<h2>Contact</h2>
+
+<div class="card">
+
+<p>📍 Dakar, Sénégal</p>
+
+<p>📧 amadymail01@gmail.com</p>
+
+<p>
+Disponible pour collaborations Data,
+IA et Open Data.
+</p>
+
+</div>
+
+</section>
