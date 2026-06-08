@@ -1,11 +1,7 @@
 ---
 layout: post
 title: "Bienvenue sur mon portfolio Data & IA"
-date: 2026-06-07
-author: "Amadou SALL"
-categories: [Data, AI, OpenData]
-tags: [Data Science, IA, Open Data, Statistiques, Visualisation]
-----------------------------------------------------------------
+---
 ![_config.yml]({{ site.baseurl }}/images/Profile_img.png)
 # Bienvenue 👋
 
